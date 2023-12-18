@@ -30,7 +30,7 @@ public class PaymentServiceImpl implements PaymentService {
     private final PaymentRepository paymentRepository;
     private final WebClient webClient = WebClient.builder()
             .baseUrl("https://api.paystack.co")
-            .defaultHeader(HttpHeaders.AUTHORIZATION, "Bearer sk_test_cd7c0f64d9aa4c1b2b9b31a004e96d7a88fb6bd2")
+            .defaultHeader(HttpHeaders.AUTHORIZATION, "Bearer sk_test_61af4a1f2bfe3f207f176b6a635602bc0e47af7f")
             .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
             .build();
 
